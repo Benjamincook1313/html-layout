@@ -1,35 +1,36 @@
-*{
+body{
     margin: 0;
-    padding: 0;
 }
-
-
-.header {
-    height: 100px;
+.header{
+    height: 15%;
     width: 100%;
-    background: grey;
-
-
-}
-.footer {
-    height: 80px;
-    width : 80%;
-    bottom: 0px;
     position: absolute;
+    top: 0;
     background-color: black;
-    margin:0 auto;
-    right: 10%;
-   
-
+    margin-left: 0;
 }
-.rightbox {
-    float: right;
+.leftbox{
+    width: 15%;
+    height: 85%;
+    position: absolute;
+    bottom: 0px;
+    background-color: lightgray;
+    
 }
-.leftbox {
-    float: left;
+.rightbox{
+    background-color: lightgray;
+    height: 85%;
+    width: 15%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
-.sidebox {
-    height: calc(100vh - 100px);
-    width: 10%;
-    background-color: rgb(186, 183, 183);
+.footer{
+    background-color: black;
+    text-align: center;
+    height: 7%;
+    width: 70%;
+    position: absolute;
+    bottom: 0;
+    left: 15%;
 }
